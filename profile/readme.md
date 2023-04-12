@@ -15,5 +15,9 @@ This is the start of the TODO as usual, but we're currently in the research phas
 - [ ] Placeholder - not yet done
 - [x] Placeholder - done!
 
+- [x] Accessing end-user repos including private and the auth token in order to clone private repos `git clone https://oauth2:ghp_...Gnm61dm4rh@github.com/gituser/testrepo.git`
+- [ ] Showing the production environment on the end user github repo just like github pages and vercel
+- [ ] Making a front end interface to interact with the github-oauth2 backend
+
 Follow up if you are interested! We'll be happy about it!
 Thanks!
