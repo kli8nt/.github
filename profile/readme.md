@@ -12,7 +12,7 @@ More specifics will be added as we go through the project!
 
 This is the start of the TODO as usual, but we're currently in the research phase!
 
-- [] Placeholder - not yet done
+- [ ] Placeholder - not yet done
 - [-] Placeholder - done!
 
 Follow up if you are interested! We'll be happy about it!
