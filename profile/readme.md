@@ -1,4 +1,10 @@
-This is the start of the end-of-second-year project journey at INSAT, codenamed KLI8NT; automating deployment of web apps from GitHub repositories to the cluster.
+Our end-of-second-year project at INSAT codenamed Kli8nt, is a revolutionary platform that streamlines the process of deploying applications and databases on Kubernetes clusters. Our user-friendly interface allows users to authenticate to GitHub, select a repository, specify the stack, run and build commands, and deploy with ease.
+
+Our backend server, written in Go, leverages the GitHub deployment API to clone repositories, use templates for stacks, add environment variables, and build and push images to our private container registry. We've also developed a custom Kubernetes operator that manages custom resource definitions (CRDs), automating application and database deployment and exposing them using Kubernetes services, with ingress rules behind the Nginx ingress operator.
+
+To ensure seamless communication between the backend and Kubernetes, we use Redis as our messaging system. Additionally, we've integrated Cloudflare API to generate user subdomains on kli8nt.xyz when deployment is complete. We monitor the infrastructure with Prometheus and Grafana.
+
+We use Google Cloud's Kubernetes Engine, Compute Engine for backend, and App Engine for the React TypeScript frontend. Our production deployment environment generates a webhook for future pushes (to trigger our backend) and displays the deployment URL upon success.
 
 Roadmap:
 
