@@ -8,7 +8,7 @@ We use Google Cloud's Kubernetes Engine, Compute Engine for backend, and App Eng
 
 Plan:
 
-![](plan.png)
+![](https://raw.githubusercontent.com/kli8nt/.github/main/profile/plan.png)
 
 Roadmap:
 
