@@ -6,6 +6,10 @@ To ensure seamless communication between the backend and Kubernetes, we use Redi
 
 We use Google Cloud's Kubernetes Engine, Compute Engine for backend, and App Engine for the React TypeScript frontend. Our production deployment environment generates a webhook for future pushes (to trigger our backend) and displays the deployment URL upon success.
 
+Plan:
+
+![](plan.png)
+
 Roadmap:
 
 - We will need to make a custom K8s controller/operator based on Client-go
